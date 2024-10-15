@@ -1,0 +1,375 @@
+﻿.sc-globalHeader {
+    background: #ffffff;
+    height: 48px;
+    color: #ffffff;
+    border-color: #2b2b2b;
+    left: 0;
+    height: 50px;
+    /* line-height: 50px; */
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+.sc-applicationHeader-row1.no-breadcrumb .sc-applicationHeader-title span {
+    vertical-align: middle;
+}
+
+.sc-globalHeader-startButton {
+    width: 32px;
+    height: 32px;
+    margin-top: 7px;
+    margin-left: -5px;
+    border-radius: 9999px;
+    float: left;
+}
+
+.sc .sc-global-logo.medium {
+    margin-top: 4px;
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+    background: url(/sitecore/shell/client/Applications/LaunchPad/Assets/dots-grid.svg);
+    display: block;
+}
+
+.sc-applicationHeader-row1.no-breadcrumb .sc-applicationHeader-title {
+    font-size: 14px;
+    font-weight: 600;
+    position: fixed;
+    top: 12px;
+    left: 48px;
+    z-index: 100;
+}
+
+.sc-applicationContent {
+    color: #121212;
+    border-color: #cccccc;
+    background-color: #f0f0f0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 25px;
+    background: #fafafa;
+    padding-left: 25px;
+    background: #fafafa;
+    max-width: none;
+    color: #121212;
+    border-color: #cccccc;
+    padding: 0;
+}
+
+ul.sc-accountInformation li img {
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul.sc-accountInformation li {
+    color: #737373;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.feeddate {
+    background: #efefef;
+    float: left;
+    padding: 7px;
+    text-align: center;
+    line-height: 1em;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #888;
+    text-shadow: none;
+    margin-bottom: 0;
+}
+
+    div.feeddate span {
+        clear: both;
+        display: block;
+        line-height: 20px;
+        font-size: .4em;
+        font-weight: normal;
+    }
+
+a, p, span div {
+    font-size: 16px !important;
+}
+
+body {
+    padding: 20px
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 1800px) {
+    .nav.navbar-nav a, .navbar-brand {
+        font-size: 16px !important;
+    }
+
+    input {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nav.navbar-nav a, .navbar-brand {
+        font-size: 13px !important;
+    }
+
+    input {
+        max-width: 150px;
+    }
+}
+
+
+
+.col-md-6.report-header p {
+    margin: 0;
+    font-weight: 700;
+    font-size:13px;
+}
+
+
+
+
+
+body {
+    background: #f8f8f8 url(/sitecore/shell/client/Applications/LaunchPad/Assets/launchpad-bg@1x.png) top left no-repeat;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#appDropdown.btn-default {
+    min-width: 150px
+}
+
+.btn-default, .btn-primary {
+    min-width: 50px;
+    height: 36px;
+    text-shadow: none;
+    outline: none;
+}
+
+    .btn-primary, .btn-primary:hover {
+        background-color: #bfe1fa;
+        background-image: none;
+        color: #000;
+        opacity: 1;
+    }
+
+/* Sitecore Styles  */
+
+.sc-launchpad-item {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+    .sc-launchpad-item p {
+        overflow-wrap: break-word !important;
+        width: 72%;
+    }
+
+    .sc-launchpad-item.detailed {
+        position: relative;
+        height: auto !important;
+        display: block;
+        width: 700px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 90px;
+    }
+
+        .sc-launchpad-item.detailed .icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+    .sc-launchpad-item a {
+        color: #333 !important;
+    }
+
+    .sc-launchpad-item .sc-launchpad-text a {
+        color: #000 !important;
+    }
+
+.sc-globalHeader-loginInfo {
+    position: absolute;
+    right: 0 !important;
+}
+
+/*  Exceptions Style  */
+
+#groupedExceptions .sc-launchpad-item {
+    width: 100%;
+}
+
+    #groupedExceptions .sc-launchpad-item .icon {
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+        padding: 3px;
+    }
+
+        #groupedExceptions .sc-launchpad-item .icon span.count {
+            padding-top: 20px;
+            padding-bottom: 5px;
+            font-size: 22px;
+            display: block;
+        }
+
+/*  JS Plumb Styles  */
+
+#jsplumb-container {
+    position: relative;
+    height: 420px;
+    margin: 20px
+}
+
+.currentApplication {
+    left: calc(50% - 32px);
+    top: calc(100% - 270px);
+}
+
+    .currentApplication p {
+        display: block
+    }
+
+    .currentApplication b {
+        display: block;
+        padding-top: 10px
+    }
+
+.app {
+    position: absolute;
+}
+
+    .app div {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+    }
+
+.error {
+    background: #faa;
+}
+
+    .error div.result {
+        background-image: url('/sitecore/shell/client/Applications/ApplicationInsights/img/error.png')
+    }
+
+.warning div.result {
+    background-image: url('/sitecore/shell/client/Applications/ApplicationInsights/img/warning.png')
+}
+
+.good .result, .error .result {
+    left: 5px;
+    bottom: 5px
+}
+
+.good div.result {
+    background-image: url('/sitecore/shell/client/Applications/ApplicationInsights/img/good.png')
+}
+.sc-globalHeader {
+    height: 48px;
+    line-height: 48px;
+}
+
+.sc-applicationHeader {
+    padding-top: 48px;
+}
+
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.dropdown-menu {
+    width: 300px;
+}
+
+    .dropdown-menu a {
+        display: block !important;
+        padding: 0 10px;
+        margin: 8px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+#overlay {
+    background: #fff;
+    opacity: 0.5;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.spinner {
+    width: 50%;
+    height: 50%
+}
+
+.fields {
+    min-height: 300px
+}
+
+#advanced-search {
+    padding: 15px 0;
+    margin: 15px;
+}
+
+    #advanced-search h3 {
+        margin: 20px 30px;
+    }
+
+#advanced-search-button {
+    margin: 6px;
+    margin-right: 55px;
+}
+
+.direct-response {
+    background-color: #fff;
+    border-color: #000;
+    margin: 15px
+}
+
+.alert.intro h2 {
+    margin-left: 15px
+}
